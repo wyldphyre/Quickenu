@@ -36,10 +36,18 @@ Quickenu's configuration is a JSON file.
                     ],
                     "targets":[
                         {
-                            "path":"path to file, folder, or executable",
-                            "parameters":"optional parameters for executables",
-                            "listcontents":"boolean indicating a folders contents should be generated as a submenu",
-                            "listmasks":"an optional list of masks that filter the files shown in generated submenu"
+                            "file":{
+                                "path":"path to file",
+                                "parameters":"optional parameters for executables"
+                            }
+                        },
+                        {
+                            "folder":{
+                                "path":"path to folder",
+                                "knownfolder":"a supported know folder (downloads)",
+                                "listcontents":"boolean indicating a folders contents should be generated as a submenu",
+                                "listmasks":"an optional list of masks that filter the files shown in generated submenu"
+                            }
                         },
                     ]
                 }
