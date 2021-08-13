@@ -11,8 +11,8 @@ The name Quickenu came from combining `Quick` and `Menu`. I liked it because it 
 The goal of Quickenu is to provide a system tray icon that will show a popup menu when clicked. The menu should provide the following:
 
 - Menu items that open a file, folder, executable, or combination thereof.
-- Menu items that point at a folder and provide a submenu of the contents of the file (optionally filtered by simple file masks)
-- Grouping of menu items. Groups separated by standard separators
+- Menu items that point at a folder and provide an automatically generated submenu of the contents of the file (optionally filtered by simple file masks)
+- Grouping of menu items. Groups separated by standard Windows menu separators
 - Configuration should also support putting menu items within another menu item
 
 ## Status
